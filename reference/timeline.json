@@ -1,0 +1,354 @@
+{
+  "fps": 30,
+  "duration": 160,
+  "bpm": 120,
+  "scenes": [
+    {
+      "id": "intro",
+      "label": "PROLOGUE",
+      "start": 0,
+      "end": 12,
+      "scale": ""
+    },
+    {
+      "id": "dc",
+      "label": "THE DATA CENTER",
+      "start": 12,
+      "end": 30,
+      "scale": "100 m"
+    },
+    {
+      "id": "rack",
+      "label": "THE RACK",
+      "start": 30,
+      "end": 48,
+      "scale": "2 m"
+    },
+    {
+      "id": "tray",
+      "label": "THE TRAY",
+      "start": 48,
+      "end": 62,
+      "scale": "50 cm"
+    },
+    {
+      "id": "pkg",
+      "label": "THE GPU",
+      "start": 62,
+      "end": 82,
+      "scale": "10 cm"
+    },
+    {
+      "id": "mem",
+      "label": "THE MEMORY WALL",
+      "start": 82,
+      "end": 100,
+      "scale": "1 cm"
+    },
+    {
+      "id": "die",
+      "label": "THE DIE",
+      "start": 100,
+      "end": 116,
+      "scale": "1 mm"
+    },
+    {
+      "id": "mm",
+      "label": "THE TENSOR CORE",
+      "start": 116,
+      "end": 134,
+      "scale": "10 µm"
+    },
+    {
+      "id": "tr",
+      "label": "THE TRANSISTOR",
+      "start": 134,
+      "end": 146,
+      "scale": "50 nm"
+    },
+    {
+      "id": "outro",
+      "label": "EPILOGUE",
+      "start": 146,
+      "end": 160,
+      "scale": ""
+    }
+  ],
+  "titleWords": [
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5
+  ],
+  "subtitle": 2.3,
+  "titleOut": 4.5,
+  "prompt": "why is the sky blue?",
+  "promptIn": 5.0,
+  "typeStart": 5.6,
+  "typeEnd": 7.0,
+  "enter": 7.5,
+  "orbFly": [
+    7.6,
+    10.0
+  ],
+  "captions": [
+    {
+      "at": 8.2,
+      "until": 11.6,
+      "text": "Your question just left for a building full of machines.",
+      "hi": "a building full of machines."
+    },
+    {
+      "at": 12.6,
+      "until": 17.2,
+      "text": "A data center. Rows of racks, as far as you can see.",
+      "hi": "A data center."
+    },
+    {
+      "at": 17.6,
+      "until": 22.8,
+      "text": "The biggest ones hold over 100,000 GPUs.",
+      "hi": "100,000 GPUs.",
+      "say": "The biggest ones hold over a hundred thousand GPUs."
+    },
+    {
+      "at": 23.2,
+      "until": 29.4,
+      "text": "And draw as much power as a small city.",
+      "hi": "a small city."
+    },
+    {
+      "at": 30.6,
+      "until": 34.8,
+      "text": "One rack: 72 GPUs.",
+      "hi": "72 GPUs.",
+      "say": "One rack: seventy-two GPUs."
+    },
+    {
+      "at": 35.2,
+      "until": 40.6,
+      "text": "Wired together at the back, so the whole rack acts like one giant GPU.",
+      "hi": "one giant GPU."
+    },
+    {
+      "at": 41.0,
+      "until": 47.4,
+      "text": "It pulls about 120 kW. Air can't cool that, so water runs through every tray.",
+      "hi": "water runs through every tray.",
+      "say": "It pulls about a hundred and twenty kilowatts. Air can't cool that, so water runs through every tray."
+    },
+    {
+      "at": 48.6,
+      "until": 52.8,
+      "text": "One tray: 2 CPUs and 4 GPUs.",
+      "hi": "4 GPUs.",
+      "say": "One tray: two CPUs and four GPUs."
+    },
+    {
+      "at": 53.2,
+      "until": 57.4,
+      "text": "Coolant flows over every chip to carry the heat away.",
+      "hi": "carry the heat away."
+    },
+    {
+      "at": 57.8,
+      "until": 61.6,
+      "text": "Lift the cold plate, and there it is.",
+      "hi": "there it is."
+    },
+    {
+      "at": 62.6,
+      "until": 67.2,
+      "text": "Two slabs of silicon, fused into one chip.",
+      "hi": "one chip."
+    },
+    {
+      "at": 67.6,
+      "until": 72.2,
+      "text": "208 billion transistors.",
+      "hi": "208 billion",
+      "say": "Two hundred and eight billion transistors."
+    },
+    {
+      "at": 72.6,
+      "until": 77.0,
+      "text": "Around them: 8 towers of stacked memory, called HBM.",
+      "hi": "stacked memory",
+      "say": "Around them: eight towers of stacked memory, called H B M."
+    },
+    {
+      "at": 77.4,
+      "until": 81.6,
+      "text": "192 GB. That's where the AI model lives.",
+      "hi": "where the AI model lives.",
+      "say": "A hundred and ninety-two gigabytes. That's where the AI model lives."
+    },
+    {
+      "at": 82.6,
+      "until": 87.6,
+      "text": "An AI model is just numbers. Billions of them, called weights.",
+      "hi": "just numbers."
+    },
+    {
+      "at": 88.0,
+      "until": 93.2,
+      "text": "To write each word, the chip streams those weights out of memory.",
+      "hi": "each word"
+    },
+    {
+      "at": 93.6,
+      "until": 99.6,
+      "text": "8 terabytes per second. And that's still often the bottleneck.",
+      "hi": "still often the bottleneck.",
+      "say": "Eight terabytes per second. And that's still often the bottleneck."
+    },
+    {
+      "at": 100.6,
+      "until": 105.0,
+      "text": "Inside each die: a grid of identical cores.",
+      "hi": "identical cores."
+    },
+    {
+      "at": 105.4,
+      "until": 110.0,
+      "text": "Each one juggles thousands of threads at once.",
+      "hi": "thousands of threads"
+    },
+    {
+      "at": 110.4,
+      "until": 115.6,
+      "text": "And each holds tensor cores, built for one single job.",
+      "hi": "one single job."
+    },
+    {
+      "at": 116.6,
+      "until": 122.4,
+      "text": "Multiply two grids of numbers. Add up the results.",
+      "hi": "Add up the results."
+    },
+    {
+      "at": 122.8,
+      "until": 128.0,
+      "text": "That's it. That's what AI is, underneath.",
+      "hi": "what AI is, underneath."
+    },
+    {
+      "at": 128.4,
+      "until": 133.6,
+      "text": "This chip does it quadrillions of times a second.",
+      "hi": "quadrillions"
+    },
+    {
+      "at": 134.6,
+      "until": 138.2,
+      "text": "At the very bottom: switches.",
+      "hi": "switches."
+    },
+    {
+      "at": 138.6,
+      "until": 142.0,
+      "text": "Voltage on the gate lets current through. Or it doesn't.",
+      "hi": "Or it doesn't."
+    },
+    {
+      "at": 142.4,
+      "until": 145.7,
+      "text": "208 billion of them, flipping billions of times a second.",
+      "hi": "billions of times a second.",
+      "say": "Two hundred and eight billion of them, flipping billions of times a second."
+    }
+  ],
+  "dcPush": 27.0,
+  "rackOrbitBack": 35.0,
+  "rackCool": 41.0,
+  "traySlide": 45.2,
+  "lift": 57.5,
+  "dive": 59.6,
+  "counter": [
+    67.6,
+    70.2
+  ],
+  "explode": 72.6,
+  "flowOn": 88.0,
+  "tbCounter": [
+    93.6,
+    95.4
+  ],
+  "smWave": 105.4,
+  "smZoom": 110.4,
+  "mmStart": 117.0,
+  "mmLayerStep": 0.36,
+  "mmSum": 120.3,
+  "mmFast": 128.4,
+  "gateToggles": [
+    135.5,
+    136.5,
+    137.5,
+    138.6,
+    139.6,
+    140.6,
+    141.1
+  ],
+  "gateFast": 142.4,
+  "montage": {
+    "at": 146.0,
+    "step": 0.75,
+    "shots": [
+      {
+        "scene": "tr",
+        "t": 141.0
+      },
+      {
+        "scene": "mm",
+        "t": 125.0
+      },
+      {
+        "scene": "die",
+        "t": 108.0
+      },
+      {
+        "scene": "mem",
+        "t": 95.0
+      },
+      {
+        "scene": "tray",
+        "t": 55.0
+      },
+      {
+        "scene": "rack",
+        "t": 38.0
+      },
+      {
+        "scene": "dc",
+        "t": 22.0
+      }
+    ]
+  },
+  "answerIn": 151.4,
+  "answer": "The sky looks blue because air scatters blue sunlight far more than red.",
+  "answerStart": 151.9,
+  "answerEnd": 154.6,
+  "final": 155.5,
+  "finalSub": 157.0,
+  "voice": {
+    "model": "x-ai/grok-voice-tts-1.0",
+    "narrator": "eve",
+    "duckDb": -9,
+    "extra": [
+      {
+        "at": 0.6,
+        "text": "How an AI chip works."
+      },
+      {
+        "at": 5.6,
+        "text": "Why is the sky blue?",
+        "voice": "rex"
+      },
+      {
+        "at": 155.6,
+        "text": "All of that. For every single word."
+      }
+    ]
+  }
+}
